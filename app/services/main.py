@@ -3,8 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from router.routes import *
-from services.base import *
+from app.router.routes import *
 import requests
 
 

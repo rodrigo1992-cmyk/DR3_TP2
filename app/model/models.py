@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+#Arquivo models.py 
 class InputExerc1(BaseModel):
     input: str
 

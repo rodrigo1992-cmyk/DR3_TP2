@@ -9,6 +9,8 @@ transformers = "*"
 tensorflow = "*"
 tf-keras = "*"
 sentencepiece = "*"
+langchain-community = "*"
+langchain-openai = "*"
 
 [dev-packages]
 

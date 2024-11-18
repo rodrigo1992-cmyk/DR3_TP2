@@ -1,14 +1,28 @@
 from pydantic import BaseModel
 
 #Arquivo models.py 
-class InputExerc1(BaseModel):
+class InputExercP1Q1(BaseModel):
     input: str
 
-class OutputExerc1(BaseModel):
+class OutputExercP1Q1(BaseModel):
     output: str
 
-class InputExerc2(BaseModel):
+class InputExercP1Q2(BaseModel):
     input: str
 
-class OutputExerc2(BaseModel):
+class OutputExercP1Q2(BaseModel):
+    output: str
+
+#Arquivo models.py
+class InputExercP2Q1(BaseModel):
+    input: str
+
+class OutputExercP2Q1(BaseModel):
+    output: str
+
+#Arquivo models.py
+class InputExercP2Q2(BaseModel):
+    input: str
+
+class OutputExercP2Q2(BaseModel):
     output: str

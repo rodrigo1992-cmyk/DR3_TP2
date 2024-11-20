@@ -48,12 +48,24 @@ def P2Q2():
         print(response.json())
 
 
+#--------------------------------RESPOSTA À PARTE 2 QUESTÃO 3--------------------------#
+#Arquivo main.py
+def P2Q3():
+    json5 = {"input": "Why Oil Companies Are Walking Back From Green Energy. Investors have rewarded oil giants like Exxon Mobil that did not embrace wind and solar, which have been less profitable in recent years than oil and gas."}
+
+    response = requests.post('http://localhost:8000/traduzir-en-de/', json = json5)
+    if response.status_code == 200:
+        print(response.json())
+
+
 
 if __name__ == "__main__":
     #P1Q1()
     #P1Q2()
     #P2Q1()
-    P2Q2()
+    #P2Q2()
+    #P2Q3()
+
 
 
 

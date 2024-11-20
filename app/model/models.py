@@ -7,11 +7,16 @@ class InputExercP1Q1(BaseModel):
 class OutputExercP1Q1(BaseModel):
     output: str
 
+
+
+#Arquivo models.py 
 class InputExercP1Q2(BaseModel):
     input: str
 
 class OutputExercP1Q2(BaseModel):
     output: str
+
+
 
 #Arquivo models.py
 class InputExercP2Q1(BaseModel):
@@ -20,9 +25,20 @@ class InputExercP2Q1(BaseModel):
 class OutputExercP2Q1(BaseModel):
     output: str
 
+
+
 #Arquivo models.py
 class InputExercP2Q2(BaseModel):
     input: str
 
 class OutputExercP2Q2(BaseModel):
+    output: str
+
+
+
+#Arquivo models.py
+class InputExercP2Q3(BaseModel):
+    input: str
+
+class OutputExercP2Q3(BaseModel):
     output: str
